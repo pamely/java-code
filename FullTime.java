@@ -1,4 +1,4 @@
-public class FullTime extends Employee{
+public class FullTime extends Employee {
     private double pay;
     private double turnover;
     private double percentTurnover;
@@ -16,17 +16,17 @@ public class FullTime extends Employee{
     }
 
     // setters 
-    void setSalaryInfo(double pay, double turnover, double percentTurnover){
+    public void setSalaryInfo(double pay, double turnover){
         this.pay = pay;
         this.turnover = turnover;
-        this.percentTurnover = percentTurnover;   
+         
     }
 
-    void setTurnover(double turnover){
+    public void setTurnover(double turnover){
         this.turnover = turnover;
     }
 
-    void setPay(double pay){
+    public void setPay(double pay){
         this.pay = pay;
     }
 

@@ -29,6 +29,9 @@ public class Employee {
     double getSalary(){
         return 0;
     }
+    
+    public void setSalaryInfo(double pay, double turnover){};
+    public void setPay(double pay){};
 
     // print employee's name and salary
     @Override
