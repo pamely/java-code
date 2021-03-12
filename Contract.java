@@ -41,7 +41,7 @@ public class Contract extends Employee{
 
     double getSalary(){
         double supHours = this.nbHours - this.dueHour;
-        return (this.nbHours * this.hourRate) + (supHours * this.hourRate * (1 + this.percentHourSuP));
+        return (this.dueHour * this.hourRate) + (supHours * this.hourRate * (1 + this.percentHourSuP));
     }
 
     @Override

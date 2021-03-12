@@ -32,7 +32,7 @@ public class Employee {
 
     // print employee's name and salary
     @Override
-    public String toString(){
+    public String toString(){   
         return "" + this.name + " has an unspecify pay";
     }
 
