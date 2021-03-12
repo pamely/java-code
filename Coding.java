@@ -1,5 +1,6 @@
 public class Coding{
 
+
     public static byte [][] code(byte[] data){
 
         byte[][] tabCode = new byte[3][6];

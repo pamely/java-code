@@ -102,6 +102,48 @@ public class GUI  extends JFrame  implements ActionListener {
 				cal.operation("-");
 			}
 
+			if (e.getActionCommand().equals("*")){
+				cal.setFirst(Double.parseDouble(text));
+				zoneText.setText("");
+				text="";
+				cal.operation("*");
+			}
+
+			if (e.getActionCommand().equals("/")){
+				cal.setFirst(Double.parseDouble(text));
+				zoneText.setText("");
+				text="";
+				cal.operation("/");
+			}
+
+			if (e.getActionCommand().equals("!")){
+				cal.setFirst(Double.parseDouble(text));
+				zoneText.setText("");
+				text="";
+				cal.operation("!");
+			}
+
+			if (e.getActionCommand().equals("POW")){
+				cal.setFirst(Double.parseDouble(text));
+				zoneText.setText("");
+				text="";
+				cal.operation("POW");
+			}
+
+			if (e.getActionCommand().equals("sqrt")){
+				cal.setFirst(Double.parseDouble(text));
+				zoneText.setText("");
+				text="";
+				cal.operation("sqrt");
+			}
+
+			if (e.getActionCommand().equals("ln")){
+				cal.setFirst(Double.parseDouble(text));
+				zoneText.setText("");
+				text="";
+				cal.operation("ln");
+			}
+
 			if(e.getActionCommand().equals("1")){
 				text += "1"; 
 				zoneText.setText(text);
