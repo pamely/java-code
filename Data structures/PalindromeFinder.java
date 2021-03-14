@@ -48,7 +48,7 @@ public class PalindromeFinder{
             @param: Word of type String 
             @return: True is @param is palindrome
          */
-        return (inputString.equals(buildReverse(inputString)));
+        return (inputString.equalsIgnoreCase(buildReverse(inputString)));
     }
 
     public static void main(String[] args){
