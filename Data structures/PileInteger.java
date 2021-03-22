@@ -1,4 +1,4 @@
-public class PileInteger extends Pile<Integer>{
+public class PileInteger implements Pile<Integer>{
     // An implementation of a stack using java arrays
     private Integer[] items;
     private int top = 0;
